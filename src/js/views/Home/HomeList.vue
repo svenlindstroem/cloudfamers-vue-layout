@@ -1,6 +1,6 @@
 <template>
   <div class="block in-router">
-    <PageHeader title="Home" />
+    <PageHeader title="Home"> Content from Home inside slot </PageHeader>
     <h1>{{ msg }}</h1>
   </div>
 </template>

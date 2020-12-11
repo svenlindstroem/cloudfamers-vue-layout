@@ -1,6 +1,6 @@
 <template>
   <div class="block in-router">
-    <PageHeader />
+    <PageHeader title="TestList">TestList Slot Content</PageHeader>
     <h2>{{ msg }}</h2>
   </div>
 </template>
@@ -8,7 +8,6 @@
 <script>
 import PageHeader from "../../components/PageHeader.vue";
 export default {
-  name: "test",
   components: [PageHeader],
   data() {
     return {
@@ -17,3 +16,5 @@ export default {
   },
 };
 </script>
+<style scoped>
+</style>
